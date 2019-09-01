@@ -1,0 +1,5 @@
+name: Login Success Message
+description: Provides an customizable Login Success Message after login.
+package: Custom
+type: module
+core: 8.x

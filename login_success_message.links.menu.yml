@@ -1,0 +1,6 @@
+login_success_message.admin_settings_form:  
+  title: 'Login Success Message configuration'  
+  route_name: login_success_message.admin_settings_form  
+  description: 'Login Success Message admin'  
+  parent: system.admin_config_system
+  weight: 99

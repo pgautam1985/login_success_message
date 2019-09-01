@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Login Success Message login_success_message.module
+ */
+function login_success_message_user_login($account) {
+  $current_user = \Drupal::currentUser();
+  $roles = $current_user->getRoles();
+  print_r($roles);
+  $config = \Drupal::config('login_success_message.adminsettings');
+  drupal_set_message($config->get('login_success_message'));  
+}  
